@@ -15,5 +15,5 @@
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
   },
-  "engines": { "node": "10.x.y" }
+  "engines": { "node": "12.x.y" }
 }
