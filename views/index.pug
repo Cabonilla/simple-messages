@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p welcome to #{title}
+  ul 
+    each element in messages
+      li #{element.user}: #{element.text}
+      | #{element.added}
+
+  a(href="/new") new message.
